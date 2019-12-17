@@ -1,6 +1,8 @@
 # DC_lab
 - openmp programs compilation\
 ``` gcc -fopenmp filename.c```
+- to compile program 3\
+``` gcc -fopenmp -lm 3.c```
 - to compile and execute program 6\
 ```gcc -fopenmp 6.c -lgd```\
 ```./a.out input.png output.png #processes ```
